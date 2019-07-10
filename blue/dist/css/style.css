@@ -1504,9 +1504,9 @@ button, input, select, textarea, label {
 				margin-top: -12px
 }
 
-.features-wrap:last-of-type {
+/* .features-wrap:last-of-type {
 				margin-bottom: -12px
-}
+} */
 
 .features-wrap:not(:last-of-type) {
 				margin-bottom: 12px
