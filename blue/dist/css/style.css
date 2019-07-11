@@ -1910,7 +1910,7 @@ button, input, select, textarea, label {
 				.cta::before {
 								right: auto;
 								left: calc(50% - 720px);
-								bottom: -10px
+								bottom: 0px
 				}
 				.cta-inner {
 								display: flex;
