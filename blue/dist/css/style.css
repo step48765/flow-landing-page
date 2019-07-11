@@ -1947,6 +1947,14 @@ button, input, select, textarea, label {
 main {
 				flex: 1 0 auto
 }
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 .section-inner {
 				position: relative;
