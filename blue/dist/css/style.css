@@ -15,7 +15,9 @@ html, body {
     padding: 0px;
     overflow-x: hidden;
 }
-
+header{
+	z-index: 10000;
+}
 article, aside, footer, header, nav, section {
 				display: block
 }
@@ -1407,7 +1409,7 @@ button, input, select, textarea, label {
 				left: calc(50% - 360px);
 				background-image: url("../images/header-bg-right.svg");
 				background-size: 720px 320px;
-				z-index: -1
+				z-index: -1;
 }
 
 .hero-copy, .hero-illustration {
