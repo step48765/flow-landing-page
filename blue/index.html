@@ -43,7 +43,17 @@
 				</div>
 			</div>
 		</header>
+		<nav>
+		<a class="icons-sprite pull" href="#">Menu</a>
+		<ul class="main-nav">
 
+		<li class="active"><a name="Home" title="Xplaye. Graphic design and branding in Monterrey, Mexico" href="./index.html">Home</a></li>
+		<li><a name="About" title="Our studio. Professional graphic design studio in Monterrey, Mexico" href="#about">About</a></li>
+		<li><a name="Blog" title="Graphic design and branding services in Monterrey, Mexico" href="blog/blog.html">Blog</a></li>
+		<li><a name="Contact" title="Graphic design and branding quotes in Monterrey, Mexico" href="#contact">Contact</a></li>
+
+		</ul>
+		</nav>
 		<main>
 			<section class="hero">
 				<div class="hero-left-decoration is-revealing"></div>
@@ -357,7 +367,36 @@
 	<script src="dist/js/main.min.js"></script>
 </body>
 <style>
+nav {float:right; width:auto;}
 
+nav a.pull { display: none;}
+
+#mobile-nav {display:none;}
+
+.main-nav {margin:0; padding:0;}
+
+.main-nav span { display:none;}
+
+.main-nav li {float:left; list-style:none; margin:0 18px; margin-top:17px;}
+
+.main-nav li:last-child {margin-right:0;}
+
+.main-nav li a {color:#0b43da; text-decoration:none; line-height:33px; padding:0 3px; display:block; font-weight:300; font-size:0.789em; }
+
+.main-nav li.active a {border-bottom:3px solid #00b3f0}
+
+.main-nav li a:hover {border-bottom:3px solid #00b3f0}
+
+#mob-nav {position:fixed; list-style: none; right:-60%; width:40%; margin:0; padding:0; background:#181818; height:100%}
+
+#mob-nav li {border-bottom:1px solid #302f2f; position:relative}
+#mob-nav li a {color:#fff; font-size:1.1em; font-family:'Open Sans'; font-weight:800; text-transform:uppercase; text-decoration:none; line-height:3.8em; padding:0 1em; display:block; position:relative; }
+
+.mob-nav-arrow {display:block; position:absolute; right:.8em; height:3.6em; width:20px; background-position:-25px -132px; top:0}
+#bt-lang { border: 1px solid #FFFFFF; border-radius: 3px; font-size: 0.65em; height: 25px; line-height: 25px; position: relative; float:right; margin-left:27px; margin-right:27px; text-align: center; top: 22px; width: 32px; z-index: 5000;}
+#bt-lang:hover {border-color:#00B3F0}
+#bt-lang a {color:#fff; display:block}
+#bt-lang:hover a {color:#00B3F0; }
 </style>
 
 </html>
